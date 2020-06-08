@@ -1,0 +1,8 @@
+C:\Projetos\net-partern\NetPatern.Extras\bin\Debug\netcoreapp3.1\NetPatern.Extras.deps.json
+C:\Projetos\net-partern\NetPatern.Extras\bin\Debug\netcoreapp3.1\NetPatern.Extras.dll
+C:\Projetos\net-partern\NetPatern.Extras\bin\Debug\netcoreapp3.1\NetPatern.Extras.pdb
+C:\Projetos\net-partern\NetPatern.Extras\obj\Debug\netcoreapp3.1\NetPatern.Extras.AssemblyInfoInputs.cache
+C:\Projetos\net-partern\NetPatern.Extras\obj\Debug\netcoreapp3.1\NetPatern.Extras.AssemblyInfo.cs
+C:\Projetos\net-partern\NetPatern.Extras\obj\Debug\netcoreapp3.1\NetPatern.Extras.csproj.CoreCompileInputs.cache
+C:\Projetos\net-partern\NetPatern.Extras\obj\Debug\netcoreapp3.1\NetPatern.Extras.dll
+C:\Projetos\net-partern\NetPatern.Extras\obj\Debug\netcoreapp3.1\NetPatern.Extras.pdb

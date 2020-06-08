@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kyQoHw+KOSq57z1mkzlgrwx/4g3NZRvdrfjA1lsUdhmUPcTn9n6e+AHLalSu1ju7oXvmc1nEFu0b/fpNtKmoRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\net-partern\\NetPatern.Extras\\NetPatern.Extras.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
