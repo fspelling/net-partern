@@ -5,12 +5,14 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetPatern.App", "NetPatern.App.csproj", "{97E74C64-1F96-4C41-A296-1988FF93DAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetPatern.Extras", "..\NetPatern.Extras\NetPatern.Extras.csproj", "{6D43DE86-277E-434B-8D91-76F9037BF3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetPatern.Extras", "..\NetPatern.Extras\NetPatern.Extras.csproj", "{6D43DE86-277E-434B-8D91-76F9037BF3C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15FAFA48-672A-4CB5-A92A-6798CD778041}"
 	ProjectSection(SolutionItems) = preProject
 		..\Design_Pattern.docx = ..\Design_Pattern.docx
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetPaternContinue.App", "..\NetPaternContinue.App\NetPaternContinue.App.csproj", "{27B25E00-6113-476C-A31B-3F08CE76FF97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{6D43DE86-277E-434B-8D91-76F9037BF3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D43DE86-277E-434B-8D91-76F9037BF3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D43DE86-277E-434B-8D91-76F9037BF3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B25E00-6113-476C-A31B-3F08CE76FF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B25E00-6113-476C-A31B-3F08CE76FF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B25E00-6113-476C-A31B-3F08CE76FF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B25E00-6113-476C-A31B-3F08CE76FF97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
