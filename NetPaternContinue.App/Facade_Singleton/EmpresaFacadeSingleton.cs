@@ -4,12 +4,8 @@
     {
         private static EmpresaFacade _instancia = new EmpresaFacade();
 
-        public EmpresaFacade Instancia
-        {
-            get
-            {
-                return _instancia;
-            }
-        }
+        private EmpresaFacadeSingleton() { }
+
+        public static EmpresaFacade GetInstance() => _instancia;
     }
 }

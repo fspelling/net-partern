@@ -4,6 +4,7 @@ using System.Linq.Expressions;
 using NetPaternContinue.App.Adapter;
 using NetPaternContinue.App.Bridges;
 using NetPaternContinue.App.Command;
+using NetPaternContinue.App.Composite;
 using NetPaternContinue.App.Facade_Singleton;
 using NetPaternContinue.App.Factory;
 using NetPaternContinue.App.Flyweight;
@@ -15,7 +16,7 @@ namespace NetPaternContinue.App
 {
     public class Program
     {
-        public static void Main(string[] args) => FacadeAndSingletonTest();
+        public static void Main(string[] args) => CompositeTest();
 
         private static void FactoryTest()
         {
@@ -131,7 +132,7 @@ namespace NetPaternContinue.App
 
         private static void AdapterTest()
         {
-            var cliente = new Cliente { Nome = "Client", Endereco = "Endereco", DataNascimento = DateTime.UtcNow };
+            var cliente = new Adapter.Cliente { Nome = "Client", Endereco = "Endereco", DataNascimento = DateTime.UtcNow };
 
             // Adaptar o objeto cliente em um xml, para esse xml do cliente ser gravado posteriormente
             var xml = GeradorXmlAdapter.GerarXml(cliente);
@@ -140,8 +141,25 @@ namespace NetPaternContinue.App
 
         private static void FacadeAndSingletonTest()
         {
-            var facade = new EmpresaFacadeSingleton().Instancia;
+            var facade = EmpresaFacadeSingleton.GetInstance();
             facade.BuscaCliente("1234");
+        }
+
+        private static void CompositeTest()
+        {
+            var folha1 = new Folha("folha 1");
+            var folha2 = new Folha("folha 2");
+
+            var composite1 = new Composite.Composite("composite 1");
+            var composite2 = new Composite.Composite("composite 2");
+
+            composite1.Add(composite2);
+            composite2.Add(folha1);
+            composite2.Add(folha2);
+
+            composite1.GetTexto();
+            Console.WriteLine("-----------------------");
+            composite2.GetTexto();
         }
     }
 }
